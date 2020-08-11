@@ -6,22 +6,30 @@ function getRandomInt(min, max) {
   	return Math.floor(Math.random() * (max - min)) + min;
 }
 
-function generateName(){
+function cityName(){
 
     var cityName = ["NYC","BALTIMORE","PHILLY","WASHINGTON D.C.","SAN DIEGO","AUSTIN","L.A.","MIAMI","SEATLE"];
-    console.log(random.cityName)
+    let index = getRandomInt(0, 8);
+    console.log(cityName[index]);
+
+function resturantName
 
     var resturantName = ["APPLE BEES","OLIVE GARDEN","5 GUYS","RED LOBSTER","BUFFALO WILD WINGS","SUBWAY","OUTBACK STEAK HOUSE"];
+    let index = getRandomInt(0, 6);
     console.log(random.resturantName)
 
-    var transportationMethod = ["CAR","BUS","TRAIN","UBER","BICYCLE"];
-    (console.log(random.transportationMethod)
+function transportationMethod
 
-    var entertainmentForm = ["STRIP CLUB","CASINO","BREWERY","PRO SPORTING EVENT","SHOPPING","NIGHT CLUB","CITY TOUR","HIKING"];
+    var transportationMethod = ["CAR","BUS","TRAIN","UBER","BICYCLE"];
+    let index = getRandomInt(0, 5);
+    console.log(random.transportationMethod)
+
+function entertainmentForm
+   
+var entertainmentForm = ["STRIP CLUB","CASINO","BREWERY","PRO SPORTING EVENT","SHOPPING","NIGHT CLUB","CITY TOUR","HIKING"];
+    let index = getRandomInt (0,7)
     console.log(random.entertainmentForm)
 
-    var cityName = capFirst(cityName[getRandomInt(0, cityName.length + 1)]) + ' ' + capFirst(resturantName[getRandomInt(0, resturantName.length + 1)]) + 
-    transportationMethod = capFirst(transportationMethod[getRandomInt(0, name1.length + 1)]) 
-    + entertainmentForm = capFirst(entertainmentForm[getRandomInt(0, name1.length + 1)])
-    console.log(random.first())
+    
+    
 }
